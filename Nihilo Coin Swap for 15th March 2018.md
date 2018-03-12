@@ -8,7 +8,7 @@ In order to do the coin swap, if you downloaded the **new wallet** on the first 
 With that said, you will need to delete the new wallet you downloaded last week and also delete it's core folder. The core folder can be found in the following locations, based on your operating system.
 
 ### Windows
-Go to the start menu and start typing **``%appdata%``** and click enter. This will open the **Windows Applications Data** folder. In here find a folder named **``Nihilo``** ( not **``NihiloCore``**, that is your old wallets core folder, do not touch that one ) and open the **``Nihilo``** folder and delete everything in there.
+Go to the start menu and start typing **``%appdata%``** and click enter. This will open the **Windows Applications Data** folder. In here find a folder named **``Nihilo``** ( **not ``NihiloCore``, that is your old wallets core folder, do not touch that one** ) and open the **``Nihilo``** folder and delete everything in there.
 
 ### MacOS
 Open finder and in the top menu select **``Go``**, click **``Go To Folder...``**. In there type **``/Users/youruser/Library/Application Support/``** and replace **youruser** with your actual MacOS username and click **``Go``**. 
