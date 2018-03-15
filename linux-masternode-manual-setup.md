@@ -141,7 +141,7 @@ sleep 2
 
 nihilod stop
 
-echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcport=5454\nrpcallowip=127.0.0.1\ndaemon=1\nserver=1\nlisten=1\ntxindex=1\nlistenonion=0\nmasternode=1\nmasternodeaddr=${mnip}:${COINPORT}\nmasternodeprivkey=${mnkey}\naddnode=ns1.nihilo.space\naddnode=ns2.nihilo.space\naddnode=ns3.nihilo.space\naddnode=ns4.nihilo.space\naddnode=ns5.nihilo.space\naddnode=ns6.nihilo.space\naddnode=ns7.nihilo.space\naddnode=ns8.nihilo.space\naddnode=ns9.nihilo.space\naddnode=ns10.nihilo.space" > ~/$COINCORE/$COINCONFIG
+echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcport=5454\nrpcallowip=127.0.0.1\ndaemon=1\nserver=1\nlisten=1\ntxindex=1\nlistenonion=0\nmasternode=1\nmasternodeaddr=${mnip}:${COINPORT}\nmasternodeprivkey=${mnkey}\naddnode=ns1.nihilo.space\naddnode=ns2.nihilo.space\naddnode=ns3.nihilo.space\naddnode=ns4.nihilo.space\naddnode=ns5.nihilo.space\naddnode=ns6.nihilo.space\naddnode=ns7.nihilo.space\naddnode=ns8.nihilo.space\naddnode=ns9.nihilo.space\naddnode=ns10.nihilo.space" > ~/.nihilo/.nihilo.conf
 ````
 
 ## Start the wallet
