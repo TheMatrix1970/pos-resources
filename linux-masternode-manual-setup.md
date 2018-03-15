@@ -106,8 +106,6 @@ mv Nihilo-Linux-CLI-V2 nihilod
 chmod 755 nihilod
 ````
 
-Now grab a coffee :coffee: or whatever beverage you preffer and wait for the wallet to finish compiling.
-
 After the compilation is done, let's make the wallet so we can access it from any location.
 
 ````bash
