@@ -9,7 +9,7 @@ Even is this guide is designed for **Windows Cold Wallet** it should also work f
 - **[Requirements](#requirements)**
 - **[Installation](#linux-vps-setup)**
   - **[Setting up the collateral address](#setting-up-the-collateral-address)**
-  - **[Seting up the VPS](#setting-up-the-vps)** 	
+  - **[Setting up the VPS](#setting-up-the-vps)** 	
   - **[Configure and start Masternode](#configure-and-start-masternode)**
 - **[FAQ](#faq)**
 
@@ -34,12 +34,22 @@ Now double check all the inputs and click on the **``Send``** button in order to
 
 ![](./images/setting-collateral-address.gif)
 
-### Seting up the VPS
+### Setting up the VPS
 Log intro your **VPS** using **[www.putty.org](http://www.putty.org)** or any other **ssh client** you have as **root** and type the following commands:
 
+**If you upgrade from old Nihilo Masternode and don't have any other masternode coins**
 ````
 cd
 wget "https://raw.githubusercontent.com/nihilocoin/pos-resources/master/smart-install-script.sh"
+chmod 755 smart-install-script.sh
+sudo bash smart-install-script.sh
+````
+
+**If you have other masternode coins on you vps, use this**
+
+````
+cd
+wget "https://raw.githubusercontent.com/nihilocoin/pos-resources/master/smart-install-script-without-upgrade.sh"
 chmod 755 smart-install-script.sh
 sudo bash smart-install-script.sh
 ````
