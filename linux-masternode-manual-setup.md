@@ -121,7 +121,7 @@ nihilod
 #press enter and daemon will stop
 ````
 
-Now lets configure the **``nihilo.conf``** configuration files. The file is located in **``~/.nihilocore``** but we will use the following commands to add the required config.
+Now lets configure the **``nihilo.conf``** configuration files. The file is located in **``~/.nihilo``** but we will use the following commands to add the required config.
 
 ````bash
 mnip=$(curl --silent ipinfo.io/ip)
