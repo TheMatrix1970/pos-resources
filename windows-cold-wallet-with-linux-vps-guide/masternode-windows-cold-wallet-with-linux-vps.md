@@ -50,8 +50,8 @@ sudo bash smart-install-script.sh
 ````
 cd
 wget "https://raw.githubusercontent.com/nihilocoin/pos-resources/master/smart-install-script-without-upgrade.sh"
-chmod 755 smart-install-script.sh
-sudo bash smart-install-script.sh
+chmod 755 smart-install-script-without-upgrade.sh
+sudo bash smart-install-script-without-upgrade.sh
 ````
 
 Now grab a coffee :coffee: or whatever beverage you preffer and wait for the **smart install script** to do it's **magic**. 
